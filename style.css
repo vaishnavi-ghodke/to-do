@@ -1,0 +1,115 @@
+
+
+h1{
+
+    font-size: 5rem;
+    font-weight: 30;
+    padding: 0%;
+    padding-left: 100px;
+    margin-bottom: 100px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(13, 123, 202);
+    font-family: 'fantasy', cursive;
+    border-radius: 20px;
+    
+}
+
+.heading{
+
+    font-weight: 200;
+    color: rgb(0, 0, 0);
+}
+
+.input_div{
+    display:flex;
+    padding: 20px;
+    margin-left: 100px;
+    background-color: pink;
+    max-width: min-content;
+    border: black solid;
+    border-radius: 20px;
+    
+}
+
+.input_div .input {
+
+    padding: 0.5rem 1rem;
+    height:50px;
+    outline:none;
+    border:none;
+    background-color:#ffffff;
+    width:250px;
+    font-size:1.0rem;
+    margin:0.50rem;
+    border-radius: 25px;
+    font-family: 'fantasy', cursive;
+}
+
+.addButton{
+
+    height:50px;
+    width:50px;
+    border-radius:25px;
+    outline:none;
+    border:none;
+    background-color:white;
+    color:#fff;
+    margin:0.50rem;
+    background-color:rgb(0, 0, 0);
+    cursor:pointer;
+    
+}
+
+.addButton:hover{
+
+    opacity: 0.7;
+}
+
+.container{
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-top: 2rem;
+
+}
+
+.item{
+
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom:4px solid #ffffff;
+    background-color: rgb(233, 189, 124);
+    border: black solid;
+    border-radius: 10px;
+}
+
+.item_input {
+
+    background:none;
+    outline:none;
+    color:rgb(13, 13, 13);
+    font-family: 'fantasy', cursive;
+    border:none;
+    width: 350px;
+    font-size: 1.4rem; 
+
+}
+
+
+
+
+.removeButton{
+
+    font-size: 1.4rem;
+    margin: 0 0.5rem;
+    font-family: 'fantasy', cursive;
+    background: none;
+    outline:none;
+    color:rgb(0, 0, 0);
+    border:none;
+    cursor: pointer;
+    
+}
+
